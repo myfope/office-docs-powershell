@@ -635,6 +635,8 @@ Accept wildcard characters: False
 ```
 
 ### -ActivityBasedAuthenticationTimeoutEnabled
+This parameter is deprecated and should no longer be used. For more information, see the 'Important' section here: https://support.microsoft.com/en-us/topic/activity-based-authentication-timeout-for-outlook-on-the-web-in-office-365-0c101e1b-020e-69c1-a0b0-26532d60c0a4
+
 The ActivityBasedAuthenticationTimeoutEnabled parameter enables or disables the inactivity interval for automatic logoff in Outlook on the web (formerly known as Outlook Web App). Valid values are:
 
 - $true: The ActivityBasedAuthenticationTimeoutInterval parameter specifies the period of inactivity that causes logoff in Outlook on the web. This is the default value.
